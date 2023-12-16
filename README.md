@@ -28,7 +28,6 @@ final PlaywrightResponse usernameInputFieldLocator = playwrightAi
 playwrightAi
     .processChatInteraction("Fill the username input field with '%s', use the locator %s"
     .formatted("standard_user", usernameInputFieldLocator.data()));
-
 final PlaywrightResponse passwordInputFieldLocator = playwrightAi
     .processChatInteraction("Find the password input field");
 playwrightAi
